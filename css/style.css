@@ -1,50 +1,124 @@
-.header {
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
 .logo {
+  font-family: "Raleway";
+  font-style: normal;
+  color: black;
+  font-size: 26px;
 }
 .logo-blue {
+  font-family: "Raleway";
+  font-style: normal;
+  color: #2196f3;
+  font-size: 26px;
 }
-.header-nav {
+.header-list .header-list-link {
+  font-weight: 500;
+  color: #212121;
+  font-size: 14px;
 }
-.header-list {
+.header-list .header-list-link:hover {
+  color: #2196f3;
 }
-.header-list-link {
+.header-list .header-list-link:focus {
+  color: #2196f3;
 }
-.header-contacts-list {
+.header-contacts-list .header-contacts {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
 }
+.header-contacts-list .header-contacts:hover {
+  color: #2196f3;
+}
+.header-contacts-list .header-contacts:focus {
+  color: #2196f3;
+}
+
 .hero {
+  background-color: #2f303a;
 }
 .hero-title {
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
 }
 .hero-button {
+  background-color: #2196f3;
 }
-.about {
-}
-.about-list {
+.button-text {
+  color: white;
 }
 .about-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
 }
 .about-text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
 }
-.aboput-title {
-}
-.skills {
-}
+
 .skills-title {
-}
-.skills-list {
+  color: #212121;
+  font-size: 36px;
 }
 .team {
+  background-color: #f5f4fa;
 }
 .team-title {
-}
-.team-list {
+  color: #212121;
+  font-size: 36px;
 }
 .team-name {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
 }
 .team-text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
 }
 .footer {
+  background-color: #2f303a;
 }
-.footer-list {
+.footer .footer-logo {
+  color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 26px;
+}
+.footer .footer-logo-blue {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 26px;
+}
+.footer-list .footer-address {
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer-list .footer-contacts {
+  color: white;
+  opacity: 60%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
 }
