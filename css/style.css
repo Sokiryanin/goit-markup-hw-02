@@ -37,6 +37,7 @@ body {
   color: black;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo-blue {
@@ -55,6 +56,7 @@ body {
   color: var(--primary-color-text);
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .header-list .header-list-link:hover {
   color: var(--accent-color);
@@ -68,6 +70,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .header-contacts-list .header-contacts:hover {
   color: var(--accent-color);
@@ -86,14 +89,18 @@ body {
   line-height: 1.36;
 
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-button {
   background-color: var(--accent-color);
   font-family: "Roboto";
+  font-weight: 700;
   color: white;
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
+  letter-spacing: 0.06em;
 }
 /* ------About------- */
 .about-title {
@@ -101,11 +108,13 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 .about-text {
   color: var(--secondary-color-text);
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Skills */
@@ -115,6 +124,7 @@ body {
   line-height: 1.16;
 
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .team {
   background-color: #f5f4fa;
@@ -123,6 +133,7 @@ body {
   color: var(--primary-color-text);
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
 
   text-align: center;
 }
@@ -131,11 +142,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 .team-text {
   color: var(--secondary-color-text);
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 .footer {
   background-color: #2f303a;
@@ -145,6 +158,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .footer .footer-logo-blue {
   color: var(--accent-color);
@@ -158,6 +172,7 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .footer-list .footer-address:hover {
   color: var(--accent-color);
@@ -168,12 +183,12 @@ body {
 }
 
 .footer-list .footer-contacts {
-  color: white;
-  opacity: 60%;
+  color: rgba(255, 255, 255, 0.6);
   font-family: "Roboto" sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .footer-list .footer-contacts:hover {
   color: var(--accent-color);
@@ -185,12 +200,14 @@ body {
 /*--------PORTFOLIO---------*/
 
 .projects-filter .projects-btn {
+  font-family: "Roboto";
   background-color: #f5f4fa;
   color: var(--primary-color-text);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
+  letter-spacing: 0.03em;
 }
 
 .projects-filter .projects-btn:hover {
@@ -208,12 +225,13 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
 }
 
 .projects-link .type-project {
   font-family: "Roboto";
   color: var(--secondary-color-text);
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
